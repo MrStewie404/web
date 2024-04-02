@@ -1,0 +1,61 @@
+.navigation{
+    float: top;
+    height: 10%;
+    padding: 0px 100px;
+    background-color: #101010;
+}
+ 
+.navigation a{
+    float: right;
+    padding: 2.4% 2%;
+    color: white;
+    background-color: #101010;
+}
+
+.navigation h1{
+    float: left;
+    /* display: grid; */
+    font-size: 225%;
+    padding: 0% 1%;
+    color: white;
+}
+ 
+.navigation a li{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 120%;
+    color: white;
+}
+ 
+.navigation a:hover{
+    background-color: gray;
+    color: #101010;
+}
+
+/* ------------------------------- */
+
+.content{
+    float: top;
+    height: 88%;
+    padding: 0px 100px;
+    background-color: #101010;
+}
+
+.content hr{
+    padding: 0% 50%;
+    /* float: top; */
+}
+
+.content img{
+    float: left;
+    padding: 10% 1%;
+    width: 425px;
+    height: 550;
+}
+
+.content p{
+    float: left;
+    font-size: 30px;
+    padding: 10% 1%;
+    color: white;
+}
